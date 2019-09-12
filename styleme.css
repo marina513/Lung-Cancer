@@ -1,0 +1,60 @@
+
+p {
+  color: yellow; font-size: 20px; width: 200px; }
+
+h1 {color: red; color: #999999 ; font-size: 36px;  opacity: 0.6; 
+	background-color: yellow; 
+	font-family: "Arial Black", Gadget, sans-serif;
+font-style: italic; 
+font-weight: bold;
+text-transform: full-width;
+padding:10px ;
+border: 10px solid white ;
+margin: 10px solid black;
+width: 10px
+height:5px;
+overflow: auto;
+
+}
+
+.color{color: maroon;background-color: red; }
+.class{color: blue;}
+.cd{color: yellow;}
+##lungcancer{color: pink;}
+
+body li {list-style: none;}
+
+a:hover,a:active{color: red ; cursor : pointer;}
+
+body section p:nth-child(1){font-size: 50px}
+
+
+body {
+	background-image: url("http://osceolawoman.com/wp-content/uploads/2013/11/lung-cancer-ribbon.jpg");
+background-repeat: no-repeat;
+background-position: center;
+  background-color: pink;
+  font-size: 80%; }
+
+
+  *{box-sizing :border-box;
+}
+
+body ul div p:nth-child(1) {color: black ; font-size: 8px ; width: 50% 
+							;border: 10px solid white ; float: left; padding: 10px;}
+
+body ul div p:nth-child(2) {color: green ; font-size: 5px ; width: 50% 
+							;
+							position: relative;
+							left: 15000px;
+						}
+
+
+.abss{color: red;}
+
+@media(min-width: 1200px)
+{.img{width: 180%}}
+
+
+@media(max-width: 1199px)
+{.img{width: 15px}}
